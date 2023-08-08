@@ -66,7 +66,7 @@ function App() {
           })}
         </div>
       </div>
-      <form onSubmit={(e) => submit(e)}>
+      <form onSubmit={submit}>
         <input
           className="form-control"
           placeholder="Write a message"
